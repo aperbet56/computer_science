@@ -52,6 +52,18 @@ li {
     height: 700px;
 }
 
+.awards article,
+.projects article,
+.pricing article {
+    transition: transform 0.3s ease-out;
+}
+
+.awards article:hover,
+.projects article:hover,
+.pricing article:hover {
+    transform: scale(1.02);
+}
+
 .parallax {
     background: url(img/parallax.jpg);
     background-position: bottom;
