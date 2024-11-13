@@ -64,6 +64,10 @@ li {
     transform: scale(1.02);
 }
 
+.awards article:hover {
+    opacity: 0.9;
+}
+
 .parallax {
     background: url(img/parallax.jpg);
     background-position: bottom;
