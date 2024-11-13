@@ -26,6 +26,11 @@ body {
     flex-direction: column;
 }
 
+a,
+li {
+    font-size: 18px;
+}
+
 .main__content {
     flex-grow: 1;
 }
