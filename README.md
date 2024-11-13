@@ -6,7 +6,7 @@ Création d'un site complet en HTML5, CSS3 et Bootstrap.
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/computer_science/
 
 ## Projet développé avec
 
