@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer science website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="d-flex justify-content-center py-3 bg-light fixed-top">
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item">
+          <a href="#home" class="nav-link text-dark">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#features" class="nav-link text-dark">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#awards" class="nav-link text-dark">Awards</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link text-dark">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link text-dark">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link text-dark">Contact</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main__content">
+      <section
+        id="home"
+        class="home bg-dark d-flex w-100 flex-column justify-content-center align-items-center mb-5"
+      >
+        <h1 class="display-1 text-white text-center fw-bold">
+          The Best Hosting, for you.
+        </h1>
+        <p class="lead text-center text-white p-2 fw-bold">
+          Secure and reliable !
+        </p>
+        <p class="lead mb-4">
+          <a href="#" class="btn btn-lg btn-secondary">Explore our features</a>
+        </p>
+      </section>
+
+      <section id="features" class="container text-center mb-5">
+        <h2 class="display-4 mt-4">Our servers are robust.</h2>
+        <p class="fs-5 mb-0 mb-5">You can lean on us</p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <article>
+            <img class="img-fluid w-25" src="img/chat.svg" alt="chat icon" />
+            <h3 class="fs-4">Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              quia harum, ratione dicta rerum odio.
+            </p>
+          </article>
+          <article>
+            <img
+              class="img-fluid w-25"
+              src="img/coding.svg"
+              alt="coding icon"
+            />
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              quia harum, ratione dicta rerum odio.
+            </p>
+          </article>
+          <article>
+            <img
+              class="img-fluid w-25"
+              src="img/transfer.svg"
+              alt="transfert icon"
+            />
+            <h3>Lorem, ipsum dolor.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+              quia harum, ratione dicta rerum odio.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <hr class="m-divider w-75 mx-auto" />
+
+      <section id="awards" class="container text-center pt-3 mb-5 awards">
+        <h2 class="display-4 mb-3">Quality or nothing</h2>
+        <p class="fs-5 mt-0 mb-4">Our rewards</p>
+        <div class="row row-cols-1 row-cols-lg-2 text-start g-3">
+          <article>
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <h3 class="card-title">Best Hosting Award 2023 🏆</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima alias provident eaque, obcaecati iusto nulla.
+                </p>
+                <button
+                  class="btn btn-transparent text-light border-light"
+                  type="button"
+                >
+                  Look at the ranking
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="card bg-warning">
+              <div class="card-body">
+                <h3 class="card-title">Fastest servers 💨</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima alias provident eaque, obcaecati iusto nulla.
+                </p>
+                <button
+                  class="btn btn-transparent text-light border-light"
+                  type="button"
+                >
+                  Look at the ranking
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="card bg-primary text-light">
+              <div class="card-body">
+                <h3 class="card-title">Best support 2022/2023 ☎️</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima alias provident eaque, obcaecati iusto nulla.
+                </p>
+                <button
+                  class="btn btn-transparent text-light border-light"
+                  type="button"
+                >
+                  Look at the ranking
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="card-title">Groundbreaking low prices 💸</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Minima alias provident eaque, obcaecati iusto nulla.
+                </p>
+                <button class="btn btn-transparent border-dark" type="button">
+                  Look at the ranking
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="text-light bg-dark text-center p-4 mb-5">
+        <h2>It's now or never</h2>
+        <p>You can do it</p>
+        <button class="btn btn-light" type="button">
+          Boost your career 🔥
+        </button>
+      </div>
+
+      <section id="projects" class="container text-center projects mb-5">
+        <h2 class="display-4 mt-4 mb-3">We are hosting those projects</h2>
+
+        <p class="fs-5 mt-0 mb-4">World Class Website</p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 text-start">
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/robot.jpg"
+                alt="robot"
+                class="img-fluid w-100"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/purpleish-pic.jpg"
+                alt="purpleish"
+                class="img-fluid"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/codebase.jpg"
+                alt="codebase"
+                class="img-fluid"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/laptop.jpg"
+                alt="laptop"
+                class="img-fluid"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/bright-laptop.jpg"
+                alt="bright-laptop"
+                class="img-fluid"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div class="border rounded p-0">
+              <img
+                src="img/desk-work.jpg"
+                alt="desk-work"
+                class="img-fluid"
+                style="min-height: 350px"
+              />
+              <div class="p-4">
+                <h3>Project</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Nesciunt, alias?
+                </p>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary"
+                  >
+                    Contact
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-outline-secondary ms-1"
+                  >
+                    Take a look at it
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <hr class="m-divider w-75 mx-auto my-5" />
+
+      <section id="pricing" class="container text-center mb-5 pricing">
+        <h2 class="display-4 mt-4 mb-3">Check our pricing tables.</h2>
+
+        <p class="fs-5 mt-0 mb-4">We suit your needs</p>
+
+        <div class="row row-cols-1 row-cols-lg-3 g-3 text-start">
+          <article>
+            <div class="card bg-success text-light" style="min-height: 443px">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title display-5 text-center">Basic</h3>
+                <p class="text-center">
+                  <span class="display-6">$9</span>/month
+                </p>
+                <ul>
+                  <li class="pb-1">1 website</li>
+                  <li class="pb-1">100 GB storage</li>
+                  <li class="pb-1">10 databases</li>
+                  <li class="pb-1">Free 1-click WordPress install</li>
+                  <li class="pb-1">24/7 support</li>
+                  <li class="pb-1">Free domain (€9.99/yr value)</li>
+                </ul>
+                <button
+                  class="btn w-100 bg-transparent border-light text-light mt-auto"
+                >
+                  Select
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div
+              class="card bg-primary text-light position-relative"
+              style="min-height: 443px"
+            >
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title display-5 text-center">Pro</h3>
+                <p class="text-center">
+                  <span class="display-6">$19</span>/month
+                </p>
+                <ul>
+                  <li class="pb-1">20 websites</li>
+                  <li class="pb-1">1 TO storage</li>
+                  <li class="pb-1">100 databases</li>
+                  <li class="pb-1">Online Store</li>
+                  <li class="pb-1">Unmetered bandwidth</li>
+                  <li class="pb-1">Free 1-click WordPress install</li>
+                  <li class="pb-1">24/7 support</li>
+                  <li class="pb-1">Free domain ($9.99/yr value)</li>
+                </ul>
+                <button
+                  class="btn w-100 bg-transparent border-light text-light mt-auto"
+                >
+                  Select
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <article>
+            <div
+              class="card bg-danger position-relative text-white"
+              style="min-height: 443px"
+            >
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title display-5 text-center">Expert</h3>
+                <p class="text-center">
+                  <span class="display-6">$39</span>/month
+                </p>
+                <ul>
+                  <li class="pb-1">Unlimited websites</li>
+                  <li class="pb-1">Unlimited storage</li>
+                  <li class="pb-1">Unlimited databases</li>
+                  <li class="pb-1">Online Store</li>
+                  <li class="pb-1">Unmetered bandwidth</li>
+                  <li class="pb-1">Free 1-click WordPress install</li>
+                  <li class="pb-1">24/7 support</li>
+                  <li class="pb-1">Free domain ($9.99/yr value)</li>
+                </ul>
+                <button
+                  class="btn w-100 bg-transparent border-white mt-auto text-white"
+                >
+                  Select
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div
+        id="parallax"
+        class="parallax p-5 border d-flex justify-content-center align-items-center text-light"
+      >
+        <h2 class="display-4 fw-bold">Take Action</h2>
+      </div>
+
+      <section id="contact" class="container text-start p-5 mb-4">
+        <h2 class="text-center">Contact us</h2>
+        <form>
+          <div class="form-floating mb-4">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com"
+            />
+            <label for="floatingInput">Email address</label>
+            <p class="text-danger mt-2">We'll never share your email !</p>
+            <div class="valid-feedback text-success">
+              <p>Email valid.</p>
+            </div>
+            <div class="invalid-feedback text-danger">
+              <p>Email invalid !</p>
+            </div>
+          </div>
+          <div class="form-floating mb-4">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+              style="height: 250px"
+            ></textarea>
+            <label for="floatingTextarea">Leave a message here</label>
+          </div>
+          <button class="btn btn-primary text-light w-100" type="submit">
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="py-3 mt-4 bg-light">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="#home" class="nav-link px-2 text-dark">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#features" class="nav-link px-2 text-dark">Features</a>
+        </li>
+        <li class="nav-item">
+          <a href="#awards" class="nav-link px-2 text-dark">Awards</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link px-2 text-dark">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#pricing" class="nav-link px-2 text-dark">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link px-2 text-dark">Contact</a>
+        </li>
+      </ul>
+      <p class="text-center text-dark">&copy; 2024 Company, Inc</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
