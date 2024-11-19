@@ -52,21 +52,26 @@ li {
     height: 700px;
 }
 
-.awards article,
+.awards article {
+    opacity: 0.8;
+    transition: opacity 0.3s ease-out;
+}
+
+.awards article:hover {
+    opacity: 1;
+}
+
 .projects article,
 .pricing article {
     transition: transform 0.3s ease-out;
 }
 
-.awards article:hover,
+
 .projects article:hover,
 .pricing article:hover {
     transform: scale(1.02);
 }
 
-.awards article:hover {
-    opacity: 0.9;
-}
 
 .parallax {
     background: url(img/parallax.jpg);
