@@ -66,10 +66,14 @@ li {
     transition: transform 0.3s ease-out;
 }
 
+.pricing article {
+    opacity: 0.9;
+}
 
 .projects article:hover,
 .pricing article:hover {
     transform: scale(1.02);
+    opacity: 1;
 }
 
 
