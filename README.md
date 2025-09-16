@@ -1,5 +1,7 @@
 ## COMPUTER SCIENCE WEBSITE (INFORMATIQUE WEBSITE)
 
+![Design preview for the project](./img/banner.png)
+
 ## Le challenge
 
 Création d'un site complet en HTML5, CSS3 et Bootstrap.
